@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THOD — The House of Detail | Detailing Automotivo Profesional</title>
+  <meta name="description" content="THOD — The House of Detail: Servicios de detailing automotivo profesional, limpieza detallada, corrección de pintura y protección cerámica en España.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/thod-logo.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet (con versionado anti-cache) -->
+  <link rel="stylesheet" href="assets/css/styles.css?v=20261022-fix-hero-boxes-v9">
+
+  <!-- Estilos Críticos Scoped del Footer (Garantía FOUC y Anti-Cache de Navegador) -->
+  <style id="thod-footer-critical-styles">
+    .site-footer {
+      background-color: #080d14 !important;
+      border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+      padding: 4.5rem 0 2rem !important;
+      position: relative !important;
+      width: 100% !important;
+      color: #94a3b8 !important;
+    }
+    .site-footer a,
+    .site-footer a:link,
+    .site-footer a:visited,
+    .site-footer a:hover,
+    .site-footer a:active,
+    .site-footer a:focus {
+      text-decoration: none !important;
+      color: inherit;
+    }
+    .footer-container {
+      max-width: 1280px !important;
+      margin: 0 auto !important;
+      padding: 0 1.5rem !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 3.25rem !important;
+    }
+    .footer-main-grid {
+      display: grid !important;
+      grid-template-columns: 1.35fr 0.85fr 1.2fr 1.05fr !important;
+      gap: 3rem 2.25rem !important;
+      align-items: start !important;
+    }
+    .footer-col--brand {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 1.15rem !important;
+    }
+    .footer-brand-link {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.85rem !important;
+      text-decoration: none !important;
+    }
+    .footer-logo-img {
+      width: 46px !important;
+      height: 49px !important;
+      object-fit: contain !important;
+    }
+    .footer-brand-naming {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    .footer-brand-title {
+      font-size: 1.4rem !important;
+      font-weight: 800 !important;
+      color: #ffffff !important;
+      letter-spacing: 0.02em !important;
+      line-height: 1.1 !important;
+      text-decoration: none !important;
+    }
+    .footer-brand-tagline {
+      font-size: 0.65rem !important;
+      font-weight: 600 !important;
+      color: #94a3b8 !important;
+      letter-spacing: 0.16em !important;
+      text-transform: uppercase !important;
+      margin-top: 0.25rem !important;
+      text-decoration: none !important;
+    }
+    .footer-brand-description {
+      font-size: 0.86rem !important;
+      color: #64748b !important;
+      line-height: 1.6 !important;
+      max-width: 320px !important;
+      margin: 0 !important;
+    }
+    .footer-col-title {
+      font-size: 0.95rem !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      margin: 0 0 1.2rem !important;
+      letter-spacing: -0.01em !important;
+    }
+    .footer-nav-list {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.65rem !important;
+    }
+    .footer-nav-link,
+    .footer-nav-link:visited {
+      color: #94a3b8 !important;
+      text-decoration: none !important;
+      font-size: 0.875rem !important;
+      display: inline-block !important;
+      padding: 0.2rem 0 !important;
+      transition: color 0.18s ease, transform 0.18s ease !important;
+    }
+    .footer-nav-link:hover {
+      color: #38bdf8 !important;
+      transform: translateX(2px) !important;
+    }
+    .footer-contact-list {
+      list-style: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.85rem !important;
+    }
+    .footer-contact-item {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 0.75rem !important;
+      font-size: 0.875rem !important;
+      color: #cbd5e1 !important;
+      line-height: 1.45 !important;
+    }
+    .footer-contact-details {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .footer-contact-sub {
+      color: #64748b !important;
+      font-size: 0.8125rem !important;
+    }
+    .footer-contact-link,
+    .footer-contact-link:visited {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
+      color: #cbd5e1 !important;
+      text-decoration: none !important;
+      transition: color 0.18s ease !important;
+    }
+    .footer-contact-link:hover {
+      color: #38bdf8 !important;
+    }
+    .footer-contact-icon-wrapper {
+      color: #38bdf8 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+      margin-top: 0.15rem !important;
+    }
+    .footer-col--actions {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    .footer-social-links {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.75rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+    .footer-social-btn,
+    .footer-social-btn:visited {
+      width: 38px !important;
+      height: 38px !important;
+      border-radius: 50% !important;
+      background-color: rgba(255, 255, 255, 0.05) !important;
+      border: 1px solid rgba(255, 255, 255, 0.12) !important;
+      color: #ffffff !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      text-decoration: none !important;
+      transition: all 0.18s ease !important;
+    }
+    .footer-social-btn:hover {
+      background-color: rgba(56, 189, 248, 0.15) !important;
+      border-color: #38bdf8 !important;
+      color: #38bdf8 !important;
+      transform: translateY(-2px) !important;
+    }
+    .btn-whatsapp-footer,
+    .btn-whatsapp-footer:visited {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.65rem !important;
+      background-color: #059669 !important;
+      color: #ffffff !important;
+      text-decoration: none !important;
+      padding: 0.75rem 1.55rem !important;
+      border-radius: 9999px !important;
+      font-size: 0.88rem !important;
+      font-weight: 600 !important;
+      letter-spacing: 0.015em !important;
+      box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35) !important;
+      transition: all 0.18s ease !important;
+    }
+    .btn-whatsapp-footer:hover {
+      background-color: #047857 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 6px 18px rgba(5, 150, 105, 0.45) !important;
+    }
+    .btn-whatsapp-footer-icon {
+      width: 18px !important;
+      height: 18px !important;
+      flex-shrink: 0 !important;
+      fill: currentColor !important;
+    }
+    .btn-whatsapp-footer-text {
+      color: #ffffff !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+    }
+    .btn-whatsapp-footer-arrow {
+      width: 15px !important;
+      height: 15px !important;
+      stroke: #ffffff !important;
+      transition: transform 0.18s ease !important;
+    }
+    .btn-whatsapp-footer:hover .btn-whatsapp-footer-arrow {
+      transform: translateX(3px) !important;
+    }
+    .footer-bottom-bar {
+      border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+      padding-top: 1.75rem !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 1.5rem !important;
+      font-size: 0.8125rem !important;
+      color: #64748b !important;
+    }
+    .footer-copyright {
+      margin: 0 !important;
+    }
+    .footer-legal-links {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.85rem !important;
+    }
+    .footer-legal-link,
+    .footer-legal-link:visited {
+      color: #64748b !important;
+      text-decoration: none !important;
+      transition: color 0.18s ease !important;
+      cursor: pointer !important;
+    }
+    .footer-legal-link:hover {
+      color: #38bdf8 !important;
+    }
+    .footer-legal-divider {
+      color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    /* Tablet (<= 768px) */
+    @media (max-width: 768px) {
+      .footer-main-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 2.5rem 2rem !important;
+      }
+    }
+
+    /* Mobile (<= 580px) */
+    @media (max-width: 580px) {
+      .site-footer {
+        padding: 3.25rem 0 2rem !important;
+      }
+      .footer-container {
+        gap: 2.25rem !important;
+        padding: 0 1.25rem !important;
+      }
+      .footer-main-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2.25rem !important;
+      }
+      .footer-col--brand {
+        align-items: flex-start !important;
+        width: 100% !important;
+      }
+      .footer-brand-description {
+        max-width: 100% !important;
+        font-size: 0.85rem !important;
+      }
+      .footer-nav-list {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 0.75rem 1rem !important;
+      }
+      .footer-nav-link {
+        padding: 0.35rem 0 !important;
+        font-size: 0.875rem !important;
+      }
+      .footer-col--actions {
+        width: 100% !important;
+        align-items: stretch !important;
+      }
+      .footer-social-links {
+        gap: 0.85rem !important;
+        margin-bottom: 1.25rem !important;
+      }
+      .footer-social-btn {
+        width: 42px !important;
+        height: 42px !important;
+      }
+      .btn-whatsapp-footer {
+        width: 100% !important;
+        justify-content: center !important;
+        padding: 0.85rem 1.5rem !important;
+        font-size: 0.92rem !important;
+      }
+      .footer-bottom-bar {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.85rem !important;
+        padding-top: 1.5rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Enlace accesible de salto al contenido -->
+  <a href="#inicio" class="skip-link">Saltar a la navegación o contenido</a>
+
+  <!-- ========================================================
+       HEADER / NAVEGACIÓN SUPERIOR THOD
+       ======================================================== -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      
+      <!-- Logotipo THOD -->
+      <a href="#inicio" class="header-logo-link" aria-label="THOD - The House of Detail | Ir a inicio">
+        <img 
+          src="assets/images/thod-logo.svg" 
+          alt="Logotipo THOD The House of Detail" 
+          class="header-logo-img"
+          width="50"
+          height="54"
+        >
+      </a>
+
+      <!-- Menú de navegación principal (Desktop y Mobile) -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-link active" aria-current="page">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servicios" class="nav-link">Servicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#trabajos" class="nav-link">Trabajos realizados</a>
+          </li>
+          <li class="nav-item">
+            <a href="#nosotros" class="nav-link">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="nav-link">Contactos</a>
+          </li>
+        </ul>
+
+        <!-- Acciones adicionales integradas en el Drawer Mobile -->
+        <div class="mobile-nav-footer" aria-hidden="true">
+          <a 
+            href="https://wa.me/34612345678?text=Hola%20THOD%2C%20quisiera%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20detailing." 
+            class="mobile-nav-wa-btn" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+              <path fill="#ffffff" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2Z" />
+              <path fill="#25D366" d="M17.51 14.39C17.21 14.24 15.74 13.51 15.47 13.41C15.2 13.31 15 13.26 14.81 13.56C14.61 13.86 14.04 14.53 13.87 14.73C13.7 14.93 13.52 14.95 13.22 14.8C12.92 14.65 11.97 14.34 10.84 13.33C9.96 12.54 9.37 11.57 9.2 11.27C9.03 10.97 9.18 10.81 9.33 10.66C9.47 10.53 9.63 10.31 9.78 10.14C9.93 9.97 9.98 9.84 10.08 9.64C10.18 9.44 10.13 9.27 10.06 9.12C9.98 8.97 9.41 7.57 9.18 7C8.95 6.45 8.71 6.52 8.54 6.52C8.38 6.51 8.19 6.51 8 6.51C7.81 6.51 7.49 6.58 7.22 6.88C6.95 7.18 6.19 7.89 6.19 9.33C6.19 10.77 7.24 12.16 7.39 12.36C7.54 12.56 9.45 15.51 12.39 16.77C13.09 17.07 13.64 17.25 14.06 17.39C14.76 17.61 15.4 17.58 15.91 17.5C16.48 17.41 17.66 16.78 17.91 16.08C18.16 15.38 18.16 14.78 18.08 14.66C18.01 14.53 17.81 14.46 17.51 14.39Z" />
+            </svg>
+            <span>Pedir cita por WhatsApp</span>
+          </a>
+          <p class="mobile-nav-contact-hint">Valencia, España • +34 612 345 678</p>
+        </div>
+      </nav>
+
+      <!-- Zona de acciones: WhatsApp y Botón Menú Mobile -->
+      <div class="header-actions">
+        <!-- Botón WhatsApp -->
+        <a 
+          href="https://wa.me/34612345678?text=Hola%20THOD%2C%20quisiera%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20detailing." 
+          class="btn-whatsapp" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Contactar por WhatsApp al +34 612 345 678"
+        >
+          <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+            <path fill="#25D366" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2Z" />
+            <path fill="#FFFFFF" d="M17.51 14.39C17.21 14.24 15.74 13.51 15.47 13.41C15.2 13.31 15 13.26 14.81 13.56C14.61 13.86 14.04 14.53 13.87 14.73C13.7 14.93 13.52 14.95 13.22 14.8C12.92 14.65 11.97 14.34 10.84 13.33C9.96 12.54 9.37 11.57 9.2 11.27C9.03 10.97 9.18 10.81 9.33 10.66C9.47 10.53 9.63 10.31 9.78 10.14C9.93 9.97 9.98 9.84 10.08 9.64C10.18 9.44 10.13 9.27 10.06 9.12C9.98 8.97 9.41 7.57 9.18 7C8.95 6.45 8.71 6.52 8.54 6.52C8.38 6.51 8.19 6.51 8 6.51C7.81 6.51 7.49 6.58 7.22 6.88C6.95 7.18 6.19 7.89 6.19 9.33C6.19 10.77 7.24 12.16 7.39 12.36C7.54 12.56 9.45 15.51 12.39 16.77C13.09 17.07 13.64 17.25 14.06 17.39C14.76 17.61 15.4 17.58 15.91 17.5C16.48 17.41 17.66 16.78 17.91 16.08C18.16 15.38 18.16 14.78 18.08 14.66C18.01 14.53 17.81 14.46 17.51 14.39Z" />
+          </svg>
+          <span class="btn-whatsapp-text">WhatsApp</span>
+        </a>
+
+        <!-- Botón Menú Mobile (Hamburguesa accesible) -->
+        <button 
+          type="button" 
+          class="mobile-nav-toggle" 
+          id="mobileNavToggle"
+          aria-expanded="false" 
+          aria-controls="primary-nav" 
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================================
+       HERO SECTION / SECCIÓN PRINCIPAL THOD (ETAPA 2)
+       ======================================================== -->
+  <main>
+    <section class="hero-section" id="inicio" aria-labelledby="hero-title">
+      
+      <!-- Contenedor fotográfico con integración ambiental -->
+      <div class="hero-media-wrapper" aria-hidden="true">
+        <picture class="hero-picture">
+          <source srcset="assets/images/thod-hero.webp?v=2" type="image/webp">
+          <img 
+            src="assets/images/thod-hero.jpg?v=2" 
+            alt="Vehículo deportivo de lujo en estudio de detailing con tratamiento cerámico y pintura brillante en THOD" 
+            class="hero-car-image"
+            width="1376"
+            height="768"
+            fetchpriority="high"
+            decoding="async"
+          >
+        </picture>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <!-- Contenedor de contenido textual y beneficios -->
+      <div class="hero-container">
+        <div class="hero-content">
+
+          <!-- Identificación de marca -->
+          <div class="hero-brand-tag">
+            <span class="hero-brand-line" aria-hidden="true"></span>
+            <span class="hero-brand-name">THE HOUSE OF DETAIL</span>
+          </div>
+
+          <!-- Título principal H1 (exacto: dos líneas con colores requeridos) -->
+          <h1 class="hero-title" id="hero-title">
+            <span class="hero-title-white">Tu coche,</span>
+            <span class="hero-title-blue">como nuevo.</span>
+          </h1>
+
+          <!-- Texto descriptivo comercial -->
+          <p class="hero-description">
+            En THOD cuidamos cada detalle para que tu vehículo luzca, se sienta y se mantenga como el primer día.
+          </p>
+
+          <!-- 3 Beneficios en una sola línea en desktop con íconos lineales azules -->
+          <ul class="hero-benefits-list" aria-label="Ventajas clave de nuestros servicios de detailing">
+            
+            <!-- Beneficio 1: Protección de larga duración -->
+            <li class="hero-benefit-item">
+              <div class="hero-benefit-icon-wrapper" aria-hidden="true">
+                <svg class="hero-benefit-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="m9 12 2 2 4-4"/>
+                </svg>
+              </div>
+              <div class="hero-benefit-content">
+                <span class="hero-benefit-title">Protección</span>
+                <span class="hero-benefit-sub">de larga duración</span>
+              </div>
+            </li>
+
+            <!-- Divisoria visual sutil entre beneficios -->
+            <li class="hero-benefit-divider" aria-hidden="true"></li>
+
+            <!-- Beneficio 2: Acabados profesionales -->
+            <li class="hero-benefit-item">
+              <div class="hero-benefit-icon-wrapper" aria-hidden="true">
+                <svg class="hero-benefit-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 2 2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4L12 2Z"/>
+                  <path d="M19 3v4M21 5h-4M5 17v4M7 19H3"/>
+                </svg>
+              </div>
+              <div class="hero-benefit-content">
+                <span class="hero-benefit-title">Acabados</span>
+                <span class="hero-benefit-sub">profesionales</span>
+              </div>
+            </li>
+
+            <!-- Divisoria visual sutil entre beneficios -->
+            <li class="hero-benefit-divider" aria-hidden="true"></li>
+
+            <!-- Beneficio 3: Vehículos de todas las marcas -->
+            <li class="hero-benefit-item">
+              <div class="hero-benefit-icon-wrapper" aria-hidden="true">
+                <svg class="hero-benefit-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 16h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2Z"/>
+                  <path d="m6 8 2-4h8l2 4"/>
+                  <circle cx="7.5" cy="13" r="1.5"/>
+                  <circle cx="16.5" cy="13" r="1.5"/>
+                </svg>
+              </div>
+              <div class="hero-benefit-content">
+                <span class="hero-benefit-title">Vehículos de todas</span>
+                <span class="hero-benefit-sub">las marcas</span>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Botón de llamada a la acción -->
+          <div class="hero-cta-wrapper">
+            <a href="#servicios" class="btn-hero-cta" aria-label="Ver nuestros servicios de detailing">
+              <span>Ver nuestros servicios</span>
+              <svg class="btn-cta-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         NUESTROS SERVICIOS / SECCIÓN DE SERVICIOS (ETAPA 3)
+         ======================================================== -->
+    <section class="services-section" id="servicios" aria-labelledby="services-title">
+      <div class="services-container">
+
+        <!-- Columna Izquierda: Introducción y Botón Secundario -->
+        <div class="services-intro">
+          
+          <!-- Identificación de sección -->
+          <div class="section-brand-tag">
+            <span class="section-brand-line" aria-hidden="true"></span>
+            <span class="section-brand-name">NUESTROS SERVICIOS</span>
+          </div>
+
+          <!-- Título H2 de la sección -->
+          <h2 class="services-title" id="services-title">
+            Detailing profesional<br>para cada necesidad.
+          </h2>
+
+          <!-- Texto descriptivo introductorio -->
+          <p class="services-description">
+            Ofrecemos un servicio completo de detailing automotriz, utilizando productos de alta calidad y técnicas especializadas para realzar, proteger y mantener la belleza de tu vehículo.
+          </p>
+
+          <!-- Botón secundario -->
+          <div class="services-cta-wrapper">
+            <a href="#contacto" class="btn-services-all" aria-label="Ver todos los servicios de detailing">
+              <span>Ver todos los servicios</span>
+              <svg class="btn-cta-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Área Derecha: Cuadrícula de 6 Cartões de Servicios (2 filas x 3 columnas en desktop) -->
+        <div class="services-grid" role="list" aria-label="Catálogo de servicios de detailing THOD">
+
+          <!-- Cartão 1: Lavado Detallado -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3 2.8 6.2L21 12l-6.2 2.8L12 21l-2.8-6.2L3 12l6.2-2.8L12 3Z"/>
+                <path d="M19 4v4M21 6h-4M5 16v4M7 18H3"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Lavado Detallado</h3>
+            <p class="service-card-desc">Limpieza profunda en cada rincón de tu vehículo.</p>
+          </article>
+
+          <!-- Cartão 2: Protección Cerámica -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Protección Cerámica</h3>
+            <p class="service-card-desc">Brillo duradero y mayor resistencia a los agentes externos.</p>
+          </article>
+
+          <!-- Cartão 3: Limpieza de Interior -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="3" width="6" height="3" rx="1.5"/>
+                <path d="M8 8a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v9H8V8Z"/>
+                <path d="M6 18a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-1Z"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Limpieza de Interior</h3>
+            <p class="service-card-desc">Elimina suciedad, bacterias y malos olores.</p>
+          </article>
+
+          <!-- Cartão 4: Tratamiento de Llantas -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="4.5"/>
+                <circle cx="12" cy="12" r="1.8"/>
+                <line x1="12" y1="2" x2="12" y2="7.5"/>
+                <line x1="12" y1="16.5" x2="12" y2="22"/>
+                <line x1="2" y1="12" x2="7.5" y2="12"/>
+                <line x1="16.5" y1="12" x2="22" y2="12"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Tratamiento de Llantas</h3>
+            <p class="service-card-desc">Limpieza y protección para un acabado perfecto.</p>
+          </article>
+
+          <!-- Cartão 5: Pulido y Corrección de Pintura -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 4a8 8 0 0 0-8 8 8 8 0 0 0 8 8V4Z"/>
+                <line x1="16" y1="6" x2="21" y2="4"/>
+                <line x1="17" y1="10" x2="22" y2="9"/>
+                <line x1="17" y1="14" x2="22" y2="15"/>
+                <line x1="16" y1="18" x2="21" y2="20"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Pulido y Corrección de Pintura</h3>
+            <p class="service-card-desc">Elimina rayones y recupera el brillo original.</p>
+          </article>
+
+          <!-- Cartão 6: Detallado Completo -->
+          <article class="service-card" role="listitem">
+            <div class="service-icon-wrapper" aria-hidden="true">
+              <svg class="service-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 16h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2Z"/>
+                <path d="m6 8 2.5-4.5h7L18 8"/>
+                <circle cx="7.5" cy="13" r="1.5"/>
+                <circle cx="16.5" cy="13" r="1.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Detallado Completo</h3>
+            <p class="service-card-desc">El paquete ideal para un resultado premium.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         TRABAJOS REALIZADOS / GALERÍA DE TRABAJOS (ETAPA 4)
+         ======================================================== -->
+    <section class="works-section" id="trabajos" aria-labelledby="works-title">
+      <div class="works-container">
+
+        <!-- Encabezado de la Sección: Identificador, Título, Texto de Apoyo y Controles de Navegación -->
+        <div class="works-header">
+
+          <!-- Bloque Izquierdo: Identificador y Título H2 -->
+          <div class="works-header-left">
+            <div class="section-brand-tag section-brand-tag--dark">
+              <span class="section-brand-line" aria-hidden="true"></span>
+              <span class="section-brand-name">TRABAJOS EJECUTADOS</span>
+            </div>
+            <h2 class="works-title" id="works-title">
+              Resultados que hablan<br>por sí solos.
+            </h2>
+          </div>
+
+          <!-- Bloque Central: Texto de Apoyo con Divisor Vertical Azul -->
+          <div class="works-support-block">
+            <span class="works-support-divider" aria-hidden="true"></span>
+            <p class="works-support-text">
+              Cada vehículo es único. Aquí puedes ver algunos de nuestros trabajos de detailing.
+            </p>
+          </div>
+
+          <!-- Bloque Derecho: Controles Circulares de Navegación -->
+          <div class="works-controls" role="group" aria-label="Navegación de galería de trabajos">
+            <button 
+              type="button" 
+              class="btn-gallery-nav btn-gallery-prev" 
+              id="worksGalleryPrev"
+              aria-label="Ver trabajos anteriores"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <button 
+              type="button" 
+              class="btn-gallery-nav btn-gallery-next" 
+              id="worksGalleryNext"
+              aria-label="Ver trabajos siguientes"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Galería Horizontal de 5 Fotografías Automotivas -->
+        <div class="works-gallery-wrapper">
+          <div class="works-gallery-track" id="worksGalleryTrack" role="list" aria-label="Fotografías de trabajos realizados">
+
+            <!-- Imagen 1: Frontal de vehículo azul -->
+            <div class="work-card" role="listitem">
+              <picture class="work-card-picture">
+                <source srcset="assets/images/thod-trabajo-detailing-frontal-azul.webp?v=2" type="image/webp">
+                <img 
+                  src="assets/images/thod-trabajo-detailing-frontal-azul.jpg?v=2" 
+                  alt="Detailing frontal de vehículo deportivo azul con pintura brillante y faros LED corregidos" 
+                  class="work-card-img" 
+                  width="600" 
+                  height="644" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+
+            <!-- Imagen 2: Jante automotiva -->
+            <div class="work-card" role="listitem">
+              <picture class="work-card-picture">
+                <source srcset="assets/images/thod-tratamiento-llantas.webp?v=2" type="image/webp">
+                <img 
+                  src="assets/images/thod-tratamiento-llantas.jpg?v=2" 
+                  alt="Tratamiento y limpieza profunda de llantas de aleación con pinzas de freno amarillas deportivas" 
+                  class="work-card-img" 
+                  width="600" 
+                  height="644" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+
+            <!-- Imagen 3: Pintura preta polida -->
+            <div class="work-card" role="listitem">
+              <picture class="work-card-picture">
+                <source srcset="assets/images/thod-correccion-pintura-negra.webp?v=2" type="image/webp">
+                <img 
+                  src="assets/images/thod-correccion-pintura-negra.jpg?v=2" 
+                  alt="Corrección de pintura y pulido de alto brillo en carrocería negra espejo de vehículo deportivo" 
+                  class="work-card-img" 
+                  width="600" 
+                  height="644" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+
+            <!-- Imagen 4: Traseira do automóvel -->
+            <div class="work-card" role="listitem">
+              <picture class="work-card-picture">
+                <source srcset="assets/images/thod-detailing-parte-trasera.webp?v=2" type="image/webp">
+                <img 
+                  src="assets/images/thod-detailing-parte-trasera.jpg?v=2" 
+                  alt="Detailing y acabado cerámico de la parte trasera con luces LED y líneas aerodinámicas" 
+                  class="work-card-img" 
+                  width="600" 
+                  height="644" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+
+            <!-- Imagen 5: Interior automotivo -->
+            <div class="work-card" role="listitem">
+              <picture class="work-card-picture">
+                <source srcset="assets/images/thod-limpieza-interior-vehiculo.webp?v=2" type="image/webp">
+                <img 
+                  src="assets/images/thod-limpieza-interior-vehiculo.jpg?v=2" 
+                  alt="Limpieza de interior y acondicionado de tapicería de cuero negro en habitáculo de lujo" 
+                  class="work-card-img" 
+                  width="600" 
+                  height="644" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+
+          </div>
+
+          <!-- Indicadores de paginación interactivos para móvil y tablet -->
+          <div class="works-pagination" id="worksPagination" role="tablist" aria-label="Indicadores de fotos de trabajos">
+            <button type="button" class="works-dot active" role="tab" aria-selected="true" aria-label="Foto 1: Frontal deportivo azul" data-index="0"></button>
+            <button type="button" class="works-dot" role="tab" aria-selected="false" aria-label="Foto 2: Tratamiento de llantas" data-index="1"></button>
+            <button type="button" class="works-dot" role="tab" aria-selected="false" aria-label="Foto 3: Corrección pintura negra" data-index="2"></button>
+            <button type="button" class="works-dot" role="tab" aria-selected="false" aria-label="Foto 4: Detailing parte trasera" data-index="3"></button>
+            <button type="button" class="works-dot" role="tab" aria-selected="false" aria-label="Foto 5: Limpieza de interior" data-index="4"></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN "QUIÉNES SOMOS" / INSTITUCIONAL (ETAPA 5)
+         ======================================================== -->
+    <section class="about-section" id="nosotros" aria-labelledby="about-title">
+      <div class="about-container">
+
+        <!-- Columna Izquierda: Fotografía de la oficina / estudio de detailing -->
+        <div class="about-media about-media--left">
+          <picture class="about-picture">
+            <source srcset="assets/images/thod-estudio-detailing-automotriz.webp" type="image/webp">
+            <img 
+              src="assets/images/thod-estudio-detailing-automotriz.jpg" 
+              alt="Estudio profesional y organizado de detailing automotriz de THOD con vehículos de alta gama e iluminación técnica" 
+              class="about-img" 
+              width="720" 
+              height="604" 
+              loading="lazy"
+            >
+          </picture>
+        </div>
+
+        <!-- Columna Central: Contenido institucional y 3 diferenciales -->
+        <div class="about-content">
+
+          <!-- Identificación de la sección -->
+          <div class="section-brand-tag">
+            <span class="section-brand-line" aria-hidden="true"></span>
+            <span class="section-brand-name">QUIÉNES SOMOS</span>
+          </div>
+
+          <!-- Título institucional H2 -->
+          <h2 class="about-title" id="about-title">
+            Más que un lavado,<br>es una pasión.
+          </h2>
+
+          <!-- Texto descriptivo institucional -->
+          <p class="about-description">
+            En THOD, somos un equipo de apasionados por el mundo del automóvil. Creemos que un buen detailing no solo mejora la apariencia, sino que también protege la inversión de nuestros clientes. Trabajamos con dedicación, experiencia y los mejores productos del mercado para ofrecer resultados de alto nivel.
+          </p>
+
+          <!-- 3 Diferenciales alineados horizontalmente en desktop -->
+          <div class="about-differentials" role="list" aria-label="Diferenciales clave de THOD">
+
+            <!-- Diferencial 1: Experiencia -->
+            <div class="about-diff-item" role="listitem">
+              <div class="about-diff-icon-wrapper" aria-hidden="true">
+                <svg class="about-diff-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div class="about-diff-text">
+                <h3 class="about-diff-title">Experiencia</h3>
+                <p class="about-diff-desc">Años de experiencia en el sector.</p>
+              </div>
+            </div>
+
+            <!-- Diferencial 2: Calidad -->
+            <div class="about-diff-item" role="listitem">
+              <div class="about-diff-icon-wrapper" aria-hidden="true">
+                <svg class="about-diff-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3 1.912 5.885L20 10.8l-4.5 4.385L16.568 21 12 17.6 7.432 21l1.068-5.815L4 10.8l6.088-1.915L12 3Z"></path>
+                </svg>
+              </div>
+              <div class="about-diff-text">
+                <h3 class="about-diff-title">Calidad</h3>
+                <p class="about-diff-desc">Productos premium y técnicas avanzadas.</p>
+              </div>
+            </div>
+
+            <!-- Diferencial 3: Confianza -->
+            <div class="about-diff-item" role="listitem">
+              <div class="about-diff-icon-wrapper" aria-hidden="true">
+                <svg class="about-diff-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+              </div>
+              <div class="about-diff-text">
+                <h3 class="about-diff-title">Confianza</h3>
+                <p class="about-diff-desc">Tu vehículo en buenas manos.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Columna Derecha: Fotografía de profesional realizando detailing -->
+        <div class="about-media about-media--right">
+          <picture class="about-picture">
+            <source srcset="assets/images/thod-profesional-limpieza-carroceria.webp" type="image/webp">
+            <img 
+              src="assets/images/thod-profesional-limpieza-carroceria.jpg" 
+              alt="Detalle en primer plano de un técnico especialista aplicando tratamiento cerámico con paño de microfibra sobre carrocería de lujo" 
+              class="about-img" 
+              width="650" 
+              height="650" 
+              loading="lazy"
+            >
+          </picture>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECCIÓN FAQ / PREGUNTAS FRECUENTES (ETAPA 6)
+         ======================================================== -->
+    <section class="faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="faq-container">
+
+        <!-- Columna Izquierda: Identificación, Título H2, Texto de Apoyo y Botón CTA -->
+        <div class="faq-intro">
+
+          <!-- Identificación de la sección con trazo azul -->
+          <div class="section-brand-tag section-brand-tag--dark">
+            <span class="section-brand-line" aria-hidden="true"></span>
+            <span class="section-brand-name">FAQ</span>
+          </div>
+
+          <!-- Título principal H2 -->
+          <h2 class="faq-title" id="faq-title">
+            ¿Tienes dudas?
+          </h2>
+
+          <!-- Texto descriptivo de apoyo -->
+          <p class="faq-description">
+            Aquí respondemos las preguntas más frecuentes sobre nuestros servicios de detailing.
+          </p>
+
+          <!-- Botón CTA con borde y flecha -->
+          <a href="https://wa.me/34612345678?text=Hola%20THOD%2C%20tengo%20una%20consulta%20sobre%20vuestros%20servicios" class="btn-faq-action" target="_blank" rel="noopener noreferrer">
+            <span>Ver todas las preguntas</span>
+            <svg class="btn-faq-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+
+        </div>
+
+        <!-- Columna Derecha: Acordeón Interactivo de 6 Preguntas Frecuentes -->
+        <div class="faq-accordion" id="faqAccordion" role="region" aria-label="Lista de preguntas frecuentes">
+
+          <!-- Pregunta 1 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn1" 
+              aria-expanded="false" 
+              aria-controls="faqAns1"
+            >
+              <span class="faq-question-text">¿Qué es el detailing automotriz?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns1" 
+              role="region" 
+              aria-labelledby="faqBtn1"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  El detailing automotriz es un conjunto de técnicas especializadas de limpieza, cuidado y protección del vehículo, tanto en el exterior como en el interior. Su objetivo es mejorar su aspecto y mantener sus superficies en buenas condiciones.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 2 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn2" 
+              aria-expanded="false" 
+              aria-controls="faqAns2"
+            >
+              <span class="faq-question-text">¿Cuánto tiempo se tarda en realizar un servicio?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns2" 
+              role="region" 
+              aria-labelledby="faqBtn2"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  Depende del tipo de servicio, del estado del vehículo y del nivel de detalle requerido. Antes de comenzar, te indicaremos el tiempo estimado para el trabajo solicitado.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 3 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn3" 
+              aria-expanded="false" 
+              aria-controls="faqAns3"
+            >
+              <span class="faq-question-text">¿Qué incluye la protección cerámica?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns3" 
+              role="region" 
+              aria-labelledby="faqBtn3"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  La protección cerámica consiste en aplicar un producto específico sobre la pintura preparada para ayudar a proteger la superficie y facilitar su mantenimiento. La preparación, la duración y las condiciones del servicio dependen del tratamiento elegido.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 4 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn4" 
+              aria-expanded="false" 
+              aria-controls="faqAns4"
+            >
+              <span class="faq-question-text">¿Cómo puedo solicitar un presupuesto?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns4" 
+              role="region" 
+              aria-labelledby="faqBtn4"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  Puedes contactar con THOD a través de WhatsApp para explicar qué necesita tu vehículo. Te orientaremos sobre las opciones disponibles y el presupuesto correspondiente.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 5 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn5" 
+              aria-expanded="false" 
+              aria-controls="faqAns5"
+            >
+              <span class="faq-question-text">¿Trabajáis con todas las marcas de vehículos?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns5" 
+              role="region" 
+              aria-labelledby="faqBtn5"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  Podemos valorar vehículos de distintas marcas y modelos. Contacta con nosotros para confirmar la disponibilidad y las opciones adecuadas para tu vehículo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pregunta 6 -->
+          <div class="faq-item">
+            <button 
+              type="button" 
+              class="faq-question-btn" 
+              id="faqBtn6" 
+              aria-expanded="false" 
+              aria-controls="faqAns6"
+            >
+              <span class="faq-question-text">¿Cada cuánto tiempo debo realizar un detailing?</span>
+              <span class="faq-icon-wrapper" aria-hidden="true">
+                <svg class="faq-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19" class="faq-icon-vertical"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div 
+              class="faq-answer-panel" 
+              id="faqAns6" 
+              role="region" 
+              aria-labelledby="faqBtn6"
+              hidden
+            >
+              <div class="faq-answer-content">
+                <p>
+                  La frecuencia depende del uso del vehículo, de dónde se guarda, de las condiciones ambientales y del tipo de protección aplicada. Podemos orientarte según las necesidades de tu coche.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Destino ancla para contacto integrado en el footer -->
+  </main>
+
+  <!-- ========================================================
+       FOOTER / PIE DE PÁGINA (ETAPA 7)
+       ======================================================== -->
+  <footer class="site-footer" id="contacto" role="contentinfo" aria-label="Pie de página de THOD">
+    <div class="footer-container">
+
+      <!-- Fila Principal: Marca, Navegación, Contacto y Redes/WhatsApp -->
+      <div class="footer-main-grid">
+
+        <!-- Columna 1: Identidad de Marca -->
+        <div class="footer-col footer-col--brand">
+          <a href="#inicio" class="footer-brand-link" aria-label="THOD The House of Detail - Volver al inicio">
+            <img 
+              src="assets/images/thod-logo.svg" 
+              alt="Logotipo THOD" 
+              class="footer-logo-img" 
+              width="46" 
+              height="49"
+            >
+            <div class="footer-brand-naming">
+              <span class="footer-brand-title">THOD</span>
+              <span class="footer-brand-tagline">THE HOUSE OF DETAIL</span>
+            </div>
+          </a>
+          <p class="footer-brand-description">
+            Cuidado, estética y protección automotriz de alto nivel para vehículos que merecen la excelencia en cada detalle.
+          </p>
+        </div>
+
+        <!-- Columna 2: Enlaces de Navegación Interna -->
+        <div class="footer-col footer-col--nav">
+          <h3 class="footer-col-title">Navegación</h3>
+          <ul class="footer-nav-list" role="list">
+            <li><a href="#inicio" class="footer-nav-link">Inicio</a></li>
+            <li><a href="#servicios" class="footer-nav-link">Servicio</a></li>
+            <li><a href="#trabajos" class="footer-nav-link">Trabajos realizados</a></li>
+            <li><a href="#nosotros" class="footer-nav-link">Quiénes somos</a></li>
+            <li><a href="#faq" class="footer-nav-link">FAQ</a></li>
+            <li><a href="#contacto" class="footer-nav-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Información de Contacto Oficial (Mockup THOD) -->
+        <div class="footer-col footer-col--contact">
+          <h3 class="footer-col-title">Contacto</h3>
+          <ul class="footer-contact-list" role="list">
+            <!-- Ubicación física -->
+            <li class="footer-contact-item">
+              <span class="footer-contact-icon-wrapper" aria-hidden="true">
+                <svg class="footer-contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </span>
+              <div class="footer-contact-details">
+                <span>C. de la Innovación, 12</span>
+                <span class="footer-contact-sub">Valencia, España</span>
+              </div>
+            </li>
+
+            <!-- Teléfono de contacto -->
+            <li class="footer-contact-item">
+              <a href="tel:+34612345678" class="footer-contact-link">
+                <span class="footer-contact-icon-wrapper" aria-hidden="true">
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </span>
+                <span>+34 612 345 678</span>
+              </a>
+            </li>
+
+            <!-- Email corporativo -->
+            <li class="footer-contact-item">
+              <a href="mailto:info@thod.es" class="footer-contact-link">
+                <span class="footer-contact-icon-wrapper" aria-hidden="true">
+                  <svg class="footer-contact-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </span>
+                <span>info@thod.es</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Redes Sociales y Botón WhatsApp Oficial -->
+        <div class="footer-col footer-col--actions">
+          <h3 class="footer-col-title">Síguenos</h3>
+          
+          <!-- Iconos de Redes Sociales -->
+          <div class="footer-social-links" aria-label="Canales sociales oficiales de THOD">
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Visitar el Instagram oficial de THOD">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Visitar el Facebook oficial de THOD">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Visitar el TikTok oficial de THOD">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Visitar el canal de YouTube de THOD">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+                <polygon points="10 15 15 12 10 9 10 15"></polygon>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Botón WhatsApp Verde con flecha -->
+          <a 
+            href="https://wa.me/34612345678?text=Hola%20THOD%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20vuestros%20servicios%20de%20detailing" 
+            class="btn-whatsapp-footer" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Abrir conversación por WhatsApp con THOD"
+          >
+            <svg class="btn-whatsapp-footer-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3"/>
+            </svg>
+            <span class="btn-whatsapp-footer-text">WhatsApp</span>
+            <svg class="btn-whatsapp-footer-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Faixa Inferior: Linha Divisória, Copyright Dinâmico e Links Legais -->
+      <div class="footer-bottom-bar">
+        <p class="footer-copyright">
+          © <span id="currentYear">2026</span> THOD. Todos los derechos reservados.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#aviso-legal" class="footer-legal-link" id="legalNoticeLink">Aviso legal</a>
+          <span class="footer-legal-divider" aria-hidden="true">|</span>
+          <a href="#privacidad" class="footer-legal-link" id="privacyPolicyLink">Política de privacidad</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Modal Acessível para Conteúdo Legal (Aviso Legal e Política de Privacidade) -->
+  <dialog class="legal-modal" id="legalModal" aria-labelledby="legalModalTitle">
+    <div class="legal-modal-content">
+      <div class="legal-modal-header">
+        <h3 class="legal-modal-title" id="legalModalTitle">Información Legal</h3>
+        <button type="button" class="legal-modal-close" id="legalModalClose" aria-label="Cerrar ventana de información legal">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="legal-modal-body" id="legalModalBody">
+        <!-- Injetado dinamicamente via JavaScript -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Script de interactividad -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+

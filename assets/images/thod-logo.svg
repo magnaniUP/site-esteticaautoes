@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 170" width="160" height="170" fill="none" role="img" aria-label="Logotipo THOD - The House of Detail">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="thodShieldBg" x1="80" y1="6" x2="80" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e203c" />
+      <stop offset="35%" stop-color="#091527" />
+      <stop offset="100%" stop-color="#040a14" />
+    </linearGradient>
+
+    <!-- Outer Border Gradient -->
+    <linearGradient id="thodOuterStroke" x1="20" y1="6" x2="140" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#2563eb" />
+      <stop offset="80%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Inner Border Gradient -->
+    <linearGradient id="thodInnerStroke" x1="80" y1="14" x2="80" y2="154" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="thodGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Ambient Blue Glow -->
+  <path d="M 32 8 L 128 8 C 140 8 148 18 150 30 L 153 72 C 153 115 80 162 80 162 C 80 162 7 115 7 72 L 10 30 C 12 18 20 8 32 8 Z"
+        stroke="#0066ff" stroke-width="6" stroke-opacity="0.3" fill="none" filter="url(#softGlow)" />
+
+  <!-- Outer Shield Base -->
+  <path d="M 32 8 L 128 8 C 140 8 148 18 150 30 L 153 72 C 153 115 80 162 80 162 C 80 162 7 115 7 72 L 10 30 C 12 18 20 8 32 8 Z"
+        fill="url(#thodShieldBg)" stroke="url(#thodOuterStroke)" stroke-width="3.2" />
+
+  <!-- Inner Inset Shield Accent Line -->
+  <path d="M 36 15 L 124 15 C 134 15 141 23 143 33 L 145 70 C 145 108 80 152 80 152 C 80 152 15 108 15 70 L 17 33 C 19 23 26 15 36 15 Z"
+        stroke="url(#thodInnerStroke)" stroke-width="1.2" fill="none" />
+
+  <!-- BRAND NAME: THOD -->
+  <g fill="#ffffff" filter="url(#thodGlow)">
+    <!-- T -->
+    <path d="M 32 26 H 50 V 31 H 43 V 46 H 39 V 31 H 32 Z" />
+    <!-- H -->
+    <path d="M 54 26 H 58 V 34 H 66 V 26 H 70 V 46 H 66 V 38 H 58 V 46 H 54 Z" />
+    <!-- O -->
+    <path d="M 74 29 C 74 27 76 26 79 26 H 87 C 90 26 92 27 92 29 V 43 C 92 45 90 46 87 46 H 79 C 76 46 74 45 74 43 Z M 78 30 V 42 H 88 V 30 Z" />
+    <!-- D -->
+    <path d="M 96 26 H 106 C 113 26 117 30 117 36 C 117 42 113 46 106 46 H 96 Z M 100 30 V 42 H 106 C 110 42 112.5 39.5 112.5 36 C 112.5 32.5 110 30 106 30 Z" />
+  </g>
+
+  <!-- SUBTITLE: THE HOUSE OF DETAIL -->
+  <text x="80" y="55" text-anchor="middle" fill="#38bdf8" font-family="'Montserrat', 'Inter', -apple-system, sans-serif" font-size="5.2" font-weight="700" letter-spacing="1.4">THE HOUSE OF DETAIL</text>
+
+  <!-- DETAILING SPARKLE STARS -->
+  <!-- Center Star -->
+  <path d="M 80 62 Q 80 68 85 68 Q 80 68 80 74 Q 80 68 75 68 Q 80 68 80 62 Z" fill="#ffffff" filter="url(#thodGlow)" />
+  <!-- Left Star -->
+  <path d="M 50 67 Q 50 71 53 71 Q 50 71 50 75 Q 50 71 47 71 Q 50 71 50 67 Z" fill="#38bdf8" />
+  <!-- Right Star -->
+  <path d="M 110 67 Q 110 71 113 71 Q 110 71 110 75 Q 110 71 107 71 Q 110 71 110 67 Z" fill="#38bdf8" />
+
+  <!-- AUTOMOTIVE CONTOUR (Sports car front view) -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- Windshield & Roof Outline -->
+    <path d="M 53 96 Q 80 84 107 96" stroke="#93c5fd" stroke-width="2" fill="none" />
+    <path d="M 61 94 L 68 86 Q 80 84 92 86 L 99 94" stroke="#60a5fa" stroke-width="1.4" stroke-opacity="0.8" fill="none" />
+
+    <!-- Hood Crease Lines -->
+    <path d="M 66 96 L 65 106 Q 80 109 95 106 L 94 96" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.7" fill="none" />
+
+    <!-- Headlights (Aggressive Modern LED Signature) -->
+    <!-- Left Headlight -->
+    <polygon points="41,103 57,99 55,104 40,106" fill="#ffffff" stroke="#38bdf8" stroke-width="1.2" filter="url(#thodGlow)" />
+    <line x1="43" y1="104" x2="54" y2="101" stroke="#38bdf8" stroke-width="1" />
+
+    <!-- Right Headlight -->
+    <polygon points="119,103 103,99 105,104 120,106" fill="#ffffff" stroke="#38bdf8" stroke-width="1.2" filter="url(#thodGlow)" />
+    <line x1="117" y1="104" x2="106" y2="101" stroke="#38bdf8" stroke-width="1" />
+
+    <!-- Front Bumper Edge -->
+    <path d="M 36 107 Q 80 113 124 107" stroke="#2563eb" stroke-width="2.4" fill="none" />
+
+    <!-- Center Lower Intake / Grille -->
+    <path d="M 56 112 Q 80 116 104 112 L 101 122 Q 80 125 59 122 Z" fill="#040a14" stroke="#38bdf8" stroke-width="1.4" />
+    <!-- Grille Mesh Line -->
+    <line x1="63" y1="117" x2="97" y2="117" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2" />
+
+    <!-- Lower Aerodynamic Splitter -->
+    <path d="M 44 124 Q 80 130 116 124" stroke="#38bdf8" stroke-width="1.8" fill="none" />
+    <path d="M 55 129 Q 80 134 105 129" stroke="#2563eb" stroke-width="1.2" fill="none" />
+  </g>
+</svg>
